@@ -1,31 +1,18 @@
 let tbody = document.querySelector('tbody');
-let url =' http://localhost:5050/mobiles ' 
+let url ='http://localhost/crudjavascript'
 
 
-// let mobiles =[];
+
+
 
 function getMobiles(){
+
+
 fetch(url)
-  .then(response=>{
-console.log(response)
-  })
+.then(response=>{response.json()
+})
 
-getMobiles();
-
-    // fetch(url)
-    // .then(response=>response.json())
-    // .then(data=>{
-    //      console.log(data)
-    //     mobiles = data;
-    //     updateTable();
-
-    // }) 
-    
+}
+getMobiles()
 
 
-// getMobiles();
-// function updateTable(){
-//     if(mobiles.length>0){
-//         for(i= 0; i<mobiles.length;i++){
-
-//      
