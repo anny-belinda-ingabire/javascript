@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>CRUD</title>
 </head>
 <body>
     <div class="container mob-table">
-<div class="haders">
+<div class="headers">
 <h2 class="table-title">
 manage mobiles
 </h2>
-<button>Add mobile</button>
+<button class="btn add">Add mobile</button>
 </div>
+<table class="table table-striped">
+<thead>
+    <tr>
+        <th>Mobile</th>
+        <th>Price</th>
+        <th>RAM</th>
+        <th>Storage</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>real</td>
+        <td>100</td>
+        <td>8gb</td>
+        <td>64gb</td>
+        <td class="btn btn-primary">edit</td>
+        <td class="btn btn-danger">delete</td>
+    </tr>
+</tbody>
+</table>
     </div>
     <script src="script.js"></script>
 </body>
