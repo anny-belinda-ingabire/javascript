@@ -32,3 +32,16 @@ body{
   background-color:#5cb85c ; 
   color: white; 
 }
+th{
+    text-align: center;
+    color: #566787;
+}
+.btn{
+    padding: 3px 20px;
+    min-width: 90px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #337a7b;
+    border-color: #2e6da4;
+}
